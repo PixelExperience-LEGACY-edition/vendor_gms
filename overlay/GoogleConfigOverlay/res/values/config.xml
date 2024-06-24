@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- These resources are around just to allow their values to be customized
+     for different hardware and product builds.  Do not translate. -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Package name for default keyguard appwidget [DO NOT TRANSLATE] -->
+    <string name="widget_default_package_name" translatable="false">com.google.android.deskclock</string>
+
+    <!-- Class name for default keyguard appwidget [DO NOT TRANSLATE] -->
+    <string name="widget_default_class_name" translatable="false">com.android.alarmclock.DigitalAppWidgetProvider</string>
+
+    <!-- Apps that are authorized to access shared accounts, overridden by product overlays -->
+    <string name="config_appsAuthorizedForSharedAccounts" translatable="false">;com.android.vending;com.android.settings;</string>
+
+    <!-- Additional non-platform defined secure settings exposed to Instant Apps -->
+    <string-array name="config_allowedSecureInstantAppSettings" translatable="false">
+        <item>advertising_id</item>
+        <item>limit_ad_tracking</item>
+    </string-array>
+
+    <!-- A list of SHA256 Certificates managing companion device(s) by the same manufacturers as
+         the main device. It will fall back to showing a prompt if the association has been called
+         multiple times in a short period.
+         Note that config_companionDeviceCerts and config_companionDeviceManagerPackage are parallel
+         arrays.
+         Example: "1A:2B:3C:4D"
+     -->
+    <string-array name="config_companionDeviceCerts" translatable="false">
+        <item>92:3F:B8:D6:48:71:01:14:8D:8D:C0:F7:90:11:5D:BA:34:CF:0E:A3:AA:5D:3B:B0:74:D2:D9:73:58:8C:39:3A</item>
+        <item>48:ED:00:58:D1:B6:63:8E:39:A6:E4:C2:DF:1C:4D:5F:DF:59:3F:69:6B:F3:1B:09:A8:8F:93:14:1E:AF:60:0F</item>
+    </string-array>
+
+    <!-- A list of packages managing companion device(s) by the same manufacturers as the main
+         device. It will fall back to showing a prompt if the association has been called multiple
+         times in a short period.
+         Note that config_companionDeviceManagerPackage and config_companionDeviceCerts are
+         parallel arrays.
+     -->
+    <string-array name="config_companionDevicePackages" translatable="false">
+        <item>com.google.android.apps.wear.companion</item>
+        <item>com.google.android.apps.wear.companion</item>
+    </string-array>
+
+    <!-- The list of IMEs which should be disabled until used.
+         This function suppresses update notifications for these pre-installed apps.
+         We need to set this configuration carefully that they should not have functionarities
+         other than "IME" or "Spell Checker". In InputMethodManagerService,
+         the listed IMEs are disabled until used when all of the following conditions are met.
+         1. Not selected as an enabled IME in the Settings
+         2. Not selected as a spell checker in the Settings
+         3. Installed
+         4. A pre-installed IME
+         5. Not enabled
+         And the disabled_until_used state for an IME is released by InputMethodManagerService
+         when the IME is selected as an enabled IME. -->
+    <string-array name="config_disabledUntilUsedPreinstalledImes" translatable="false">
+        <item>com.google.android.inputmethod.latin</item>
+        <item>com.google.android.apps.inputmethod.hindi</item>
+        <item>com.google.android.inputmethod.japanese</item>
+        <item>com.google.android.inputmethod.korean</item>
+        <item>com.google.android.inputmethod.pinyin</item>
+        <item>jp.co.omronsoft.iwnnime.ml</item>
+        <item>com.nuance.xt9.input</item>
+    </string-array>
+
+    <string name="calendar_component_name" translatable="false">com.google.android.calendar/com.android.calendar.AllInOneActivity</string>
+    <string name="clock_component_name" translatable="false">com.google.android.deskclock/com.android.deskclock.DeskClock</string>
+
+    <string name="config_defaultCaptivePortalLoginPackageName">com.google.android.captiveportallogin</string>
+    <string name="config_defaultNearbyFastPairSettingsDevicesComponent">com.google.android.gms/com.google.android.gms.nearby.discovery.devices.SavedDevicesSettingsActivity</string>
+    <string name="config_defaultQrCodeComponent">com.google.android.gms/.mlkit.barcode.ui.PlatformBarcodeScanningActivityProxy</string>
+    <string name="config_defaultSearchSelectorPackageName">com.google.android.apps.setupwizard.searchselector</string>
+<!--    <string name="config_devicePolicyManagement">com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58</string>
+    <string name="config_devicePolicyManagementUpdater">com.google.android.gms</string>
+    <string name="config_loggable_dream_prefix">com.google.</string> -->
+    <string name="config_systemGameService">com.google.android.gms</string>
+    <string name="config_systemSettingsIntelligence">com.google.android.settings.intelligence</string>
+</resources>

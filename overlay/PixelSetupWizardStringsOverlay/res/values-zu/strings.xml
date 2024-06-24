@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">I-Android isebenzisa i-Motion Sense ukuze ithole ukunyakaza okuseduze. Ayisebenzisi ikhamera yakho, imakrofoni, noma indawo.</string>
+     <string name="bc_welcome_message">Siyakwamukela kwi-Android yakho</string>
+     <string name="deferred_setup_wizard_title">Qedelela ukusetha i-Android</string>
+     <string name="device_name">I-Android</string>
+     <string name="smart_always_on_display_opt_in_info_text">I-Android isebenzisa i-Motion Sense ukuze ithole ukunyakaza okuseduze. Ayisebenzisi ikhamera yakho, imakrofoni, noma indawo.</string>
+</resources>

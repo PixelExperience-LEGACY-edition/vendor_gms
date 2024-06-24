@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android folosește Motion Sense pentru a detecta mișcări în apropiere. Nu folosește camera, microfonul sau locația.</string>
+     <string name="bc_welcome_message">Bun venit la Android!</string>
+     <string name="deferred_setup_wizard_title">Finalizează de configurat Android</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{Personalizează dispozitivul Android}TABLET{Personalizează-ți tableta}other{Personalizează-ți dispozitivul}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{Poți continua să folosești dispozitivul Android}TABLET{Poți continua să folosești tableta}other{Poți continua să folosești dispozitivul}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{Profită la maximum de Android}TABLET{Profită la maximum de tabletă}other{Profită la maximum de dispozitiv}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0}, profită la maximum de Android}TABLET{{0}, profită la maximum de tabletă}other{{0}, profită la maximum de dispozitiv}}</string>
+     <string name="setup_wizard_title">Configurare Android</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android folosește Motion Sense pentru a detecta mișcări în apropiere. Nu folosește camera, microfonul sau locația.</string>
+</resources>

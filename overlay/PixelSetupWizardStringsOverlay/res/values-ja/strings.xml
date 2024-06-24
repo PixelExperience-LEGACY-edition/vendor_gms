@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android は Motion Sense を使用して付近の動きを検出します。カメラ、マイク、位置情報は使用しません。</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{Android のカスタマイズ}TABLET{タブレットのカスタマイズ}other{デバイスのカスタマイズ}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{Android は引き続き使用できます}TABLET{タブレットは引き続き使用できます}other{デバイスは引き続き使用できます}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{Android を活用しましょう}TABLET{タブレットを活用しましょう}other{デバイスを活用しましょう}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0} さん、Android を活用しましょう}TABLET{{0} さん、タブレットを活用しましょう}other{{0} さん、デバイスを活用しましょう}}</string>
+     <string name="setup_wizard_title">Android の設定</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android は Motion Sense を使用して付近の動きを検出します。カメラ、マイク、位置情報は使用しません。</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android ໃຊ້ Motion Sense ເພື່ອກວດສອບການເຄື່ອນໄຫວທີ່ຢູ່ໃກ້ຄຽງ. ມັນຈະບໍ່ໃຊ້ກ້ອງ, ໄມ ຫຼື ສະຖານທີ່ຂອງທ່ານ.</string>
+     <string name="bc_welcome_message">ຍິນດີຕ້ອນຮັບສູ່ Android ຂອງທ່ານ</string>
+     <string name="deferred_setup_wizard_title">ສຳເລັດການຕັ້ງຄ່າຢູ່ Android</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{ປັບແຕ່ງ Android ຂອງທ່ານ}TABLET{ປັບແຕ່ງແທັບເລັດຂອງທ່ານ}other{ປັບແຕ່ງອຸປະກອນຂອງທ່ານ}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{ທ່ານສາມາດສືບຕໍ່ໃຊ້ Android ຂອງທ່ານໄດ້}TABLET{ທ່ານສາມາດສືບຕໍ່ໃຊ້ແທັບເລັດຂອງທ່ານໄດ້}other{ທ່ານສາມາດສືບຕໍ່ໃຊ້ອຸປະກອນຂອງທ່ານໄດ້}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{ໃຊ້ປະໂຫຍດສູງສຸດຈາກ Android ຂອງທ່ານ}TABLET{ໃຊ້ປະໂຫຍດສູງສຸດຈາກແທັບເລັດຂອງທ່ານ}other{ໃຊ້ປະໂຫຍດສູງສຸດຈາກອຸປະກອນຂອງທ່ານ}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0}, ໃຊ້ປະໂຫຍດສູງສຸດຈາກ Android ຂອງທ່ານ}TABLET{{0}, ໃຊ້ປະໂຫຍດສູງສຸດຈາກແທັບເລັດຂອງທ່ານ}other{{0}, ໃຊ້ປະໂຫຍດສູງສຸດຈາກອຸປະກອນຂອງທ່ານ}}</string>
+     <string name="setup_wizard_title">ຕັ້ງຄ່າ Android</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android ໃຊ້ Motion Sense ເພື່ອກວດສອບການເຄື່ອນໄຫວທີ່ຢູ່ໃກ້ຄຽງ. ມັນຈະບໍ່ໃຊ້ກ້ອງ, ໄມ ຫຼື ສະຖານທີ່ຂອງທ່ານ.</string>
+</resources>

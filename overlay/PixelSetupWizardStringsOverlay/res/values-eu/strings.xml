@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android-ek Motion Sense erabiltzen du bere inguruko mugimenduak hautemateko. Ez ditu erabiltzen kamera, mikrofonoa eta kokapena.</string>
+     <string name="bc_welcome_message">Ongi etorri Android-era</string>
+     <string name="deferred_setup_wizard_title">Amaitu Android gailua konfiguratzen</string>
+     <string name="device_name">Android</string>
+     <string name="setup_wizard_title">Android-en konfigurazioa</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android-ek Motion Sense erabiltzen du bere inguruko mugimenduak hautemateko. Ez ditu erabiltzen kamera, mikrofonoa eta kokapena.</string>
+</resources>

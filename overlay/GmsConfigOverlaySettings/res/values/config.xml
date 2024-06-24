@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+           xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- List containing the component names of pre-installed screen reader services [DO NOT TRANSLATE] -->
+    <string-array name="config_preinstalled_screen_reader_services" translatable="false">
+        <item>com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService</item>
+    </string-array>
+
+    <!-- List containing the component names of pre-installed interaction control services [DO NOT TRANSLATE] -->
+    <string-array name="config_preinstalled_interaction_control_services" translatable="false">
+        <item>com.google.android.marvin.talkback/com.android.switchaccess.SwitchAccessService</item>
+        <item>com.google.android.marvin.talkback/com.google.android.accessibility.accessibilitymenu.AccessibilityMenuService</item>
+    </string-array>
+</resources>

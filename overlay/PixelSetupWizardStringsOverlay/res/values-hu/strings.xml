@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">A Android a Motion Sense szolgáltatást használja a közeli mozdulatok észleléséhez. A funkció nem használja az eszköz kameráját, mikrofonját és helyadatait.</string>
+     <string name="bc_welcome_message">Üdvözli a Android telefonja</string>
+     <string name="deferred_setup_wizard_title">A Android beállításának befejezése</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{A Android személyre szabása}TABLET{Táblagép testreszabása}other{Eszköz személyre szabása}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{Folytathatja a Android használatát}TABLET{Folytathatja a táblagép használatát}other{Folytathatja az eszköz használatát}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{Hozza ki a legtöbbet Android eszközéből}TABLET{Hozza ki a legtöbbet táblagépéből}other{Hozza ki a legtöbbet az eszközéből}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0}, hozza ki a legtöbbet Android eszközéből}TABLET{{0}, hozza ki a legtöbbet táblagépéből}other{{0}, hozza ki a legtöbbet az eszközéből}}</string>
+     <string name="setup_wizard_title">A Android beállítása</string>
+     <string name="smart_always_on_display_opt_in_info_text">A Android a Motion Sense szolgáltatást használja a közeli mozdulatok észleléséhez. A funkció nem használja az eszköz kameráját, mikrofonját és helyadatait.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Android ਨੇੜੇ-ਤੇੜੇ ਦੀ ਹਿਲਜੁਲ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ Motion Sense ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਕੈਮਰੇ, ਮਾਈਕ ਜਾਂ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
+     <string name="bc_welcome_message">Android ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ</string>
+     <string name="deferred_setup_wizard_title">Android ਦਾ ਸੈੱਟਅੱਪ ਪੂਰਾ ਕਰੋ</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{ਆਪਣੇ Android ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ}TABLET{ਆਪਣੇ ਟੈਬਲੈੱਟ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ}other{ਆਪਣੇ ਡੀਵਾਈਸ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{ਤੁਸੀਂ ਆਪਣੇ Android ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ}TABLET{ਤੁਸੀਂ ਆਪਣੇ ਟੈਬਲੈੱਟ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ}other{ਤੁਸੀਂ ਆਪਣੇ ਡੀਵਾਈਸ ਦੀ ਵਰਤੋਂ ਕਰਨਾ ਜਾਰੀ ਰੱਖ ਸਕਦੇ ਹੋ}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{ਆਪਣੇ Android ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}TABLET{ਆਪਣੇ ਟੈਬਲੈੱਟ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}other{ਆਪਣੇ ਡੀਵਾਈਸ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0}, ਆਪਣੇ Android ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}TABLET{{0}, ਆਪਣੇ ਟੈਬਲੈੱਟ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}other{{0}, ਆਪਣੇ ਡੀਵਾਈਸ ਦਾ ਵੱਧ ਤੋਂ ਵੱਧ ਲਾਹਾ ਲਓ}}</string>
+     <string name="setup_wizard_title">Android ਸੈੱਟਅੱਪ</string>
+     <string name="smart_always_on_display_opt_in_info_text">Android ਨੇੜੇ-ਤੇੜੇ ਦੀ ਹਿਲਜੁਲ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ Motion Sense ਦੀ ਵਰਤੋਂ ਕਰਦਾ ਹੈ। ਇਹ ਤੁਹਾਡੇ ਕੈਮਰੇ, ਮਾਈਕ ਜਾਂ ਟਿਕਾਣੇ ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦਾ ਹੈ।</string>
+</resources>

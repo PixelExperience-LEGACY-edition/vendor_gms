@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string name="air_gestures_opt_in_info_text">Το Android χρησιμοποιεί το Motion Sense για να ανιχνεύει κινήσεις σε κοντινή απόσταση. Δεν χρησιμοποιεί την κάμερα, το μικρόφωνο ή την τοποθεσία σας.</string>
+     <string name="bc_welcome_message">Καλώς ορίσατε στο Android</string>
+     <string name="deferred_setup_wizard_title">Ολοκλήρωση της ρύθμισης του Android</string>
+     <string name="device_name">Android</string>
+     <string name="portal_setup_optional_actions_title">{DEVICE_TYPE,select, PHONE{Προσαρμογή Android}TABLET{Προσαρμογή tablet}other{Προσαρμογή συσκευής}}</string>
+     <string name="portal_setup_progress_start_description">{DEVICE_TYPE,select, PHONE{Μπορείτε να συνεχίσετε να χρησιμοποιείτε το Android σας}TABLET{Μπορείτε να συνεχίσετε να χρησιμοποιείτε το tablet σας}other{Μπορείτε να συνεχίσετε να χρησιμοποιείτε τη συσκευή σας}}</string>
+     <string name="portal_setup_title">{DEVICE_TYPE,select, PHONE{Αξιοποιήστε πλήρως το Android σας}TABLET{Αξιοποιήστε πλήρως το tablet σας}other{Αξιοποιήστε πλήρως τη συσκευή σας}}</string>
+     <string name="portal_setup_title_with_username">{DEVICE_TYPE,select, PHONE{{0}, αξιοποιήστε πλήρως το Android σας}TABLET{{0}, αξιοποιήστε πλήρως το tablet σας}other{{0}, αξιοποιήστε πλήρως τη συσκευή σας}}</string>
+     <string name="setup_wizard_title">Ρύθμιση Android</string>
+     <string name="smart_always_on_display_opt_in_info_text">Το Android χρησιμοποιεί το Motion Sense για να ανιχνεύει κινήσεις σε κοντινή απόσταση. Δεν χρησιμοποιεί την κάμερα, το μικρόφωνο ή την τοποθεσία σας.</string>
+</resources>
