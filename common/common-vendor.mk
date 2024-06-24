@@ -9,6 +9,51 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/app/Chrome/Chrome.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/Chrome/Chrome.apk.gz \
     vendor/gms/common/proprietary/product/app/TrichromeLibrary/TrichromeLibrary.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/TrichromeLibrary/TrichromeLibrary.apk.gz \
     vendor/gms/common/proprietary/product/app/WebViewGoogle/WebViewGoogle.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/WebViewGoogle/WebViewGoogle.apk.gz \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/SODA_punctuation_config.pb:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/SODA_punctuation_config.pb \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/SODA_punctuation_model.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/SODA_punctuation_model.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_mean_stddev:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_mean_stddev \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_model:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_model \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_mean_stddev:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_mean_stddev \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_model:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_model \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/config.pumpkin:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/config.pumpkin \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_CONTINUOUS.config:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_CONTINUOUS.config \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT.config:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT.config \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT_compiler.config:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT_compiler.config \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/apps.txt:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/apps.txt \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/contacts.txt:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/contacts.txt \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_car_automation.action.union_STD_FST.fst:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_car_automation.action.union_STD_FST.fst \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_manual_fixes_STD_FST.fst:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_manual_fixes_STD_FST.fst \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_top_radio_station_frequencies_STD_FST.fst:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_top_radio_station_frequencies_STD_FST.fst \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/context_prebuilt/songs.txt:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/context_prebuilt/songs.txt \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/embedded_class_denorm.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/embedded_class_denorm.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/embedded_covid_19.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/embedded_covid_19.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/embedded_fix_ampm.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/embedded_fix_ampm.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/embedded_normalizer.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/embedded_normalizer.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/embedded_replace_annotated_punct_words_dash.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/embedded_replace_annotated_punct_words_dash.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/denorm/porn_normalizer_on_device.mfar:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/denorm/porn_normalizer_on_device.mfar \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_dictation_frontend_params.mean_stddev:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_dictation_frontend_params.mean_stddev \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_0.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_0.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_1.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_1.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.decoder.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.decoder.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.joint.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.joint.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.syms.compact:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.syms.compact \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.word_classifier:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.word_classifier \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.wpm.portable:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.wpm.portable \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_voice_actions_frontend_params.mean_stddev:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_voice_actions_frontend_params.mean_stddev \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/g2p:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/g2p \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/g2p.syms:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/g2p.syms \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/g2p_phonemes.syms:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/g2p_phonemes.syms \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/hotword.data:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/hotword.data \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_meanstddev_vector:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_meanstddev_vector \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_model.int8.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_model.int8.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_model.int8.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_model.int8.tflite \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_vocabulary.syms:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_vocabulary.syms \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/metadata:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/metadata \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/monastery_config.pumpkin:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/monastery_config.pumpkin \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/offline_action_data.pb:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/offline_action_data.pb \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/pumpkin.mmap:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/pumpkin.mmap \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/semantics.pumpkin:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/semantics.pumpkin \
+    vendor/gms/common/proprietary/product/blobs/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite:$(TARGET_COPY_OUT_PRODUCT)/blobs/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite \
     vendor/gms/common/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \

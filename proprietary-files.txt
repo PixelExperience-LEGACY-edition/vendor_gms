@@ -116,6 +116,67 @@ system_ext/priv-app/RilConfigService/RilConfigService.apk;PRESIGNED
 # Ambient 
 product/etc/ambient/matcher_tah.leveldb
 
+# AccousticModel
+product/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_mean_stddev
+product/blobs/usr/srec/en-US/acousticmodel/MARBLE_DICTATION_EP.endpointer_portable_lstm_model
+product/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_mean_stddev
+product/blobs/usr/srec/en-US/acousticmodel/MARBLE_VOICE_ACTIONS_EP.endpointer_portable_lstm_model
+
+# Accoustic Configs
+product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_CONTINUOUS.config
+product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT_compiler.config
+product/blobs/usr/srec/en-US/configs/ONDEVICE_MEDIUM_SHORT.config
+
+# Accoustic Context
+product/blobs/usr/srec/en-US/context_prebuilt/apps.txt
+product/blobs/usr/srec/en-US/context_prebuilt/contacts.txt
+product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_car_automation.action.union_STD_FST.fst
+product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_manual_fixes_STD_FST.fst
+product/blobs/usr/srec/en-US/context_prebuilt/en-US_android-auto_top_radio_station_frequencies_STD_FST.fst
+
+# Accoustic Denorm
+product/blobs/usr/srec/en-US/context_prebuilt/songs.txt
+product/blobs/usr/srec/en-US/denorm/embedded_class_denorm.mfar
+product/blobs/usr/srec/en-US/denorm/embedded_covid_19.mfar
+product/blobs/usr/srec/en-US/denorm/embedded_fix_ampm.mfar
+product/blobs/usr/srec/en-US/denorm/embedded_normalizer.mfar
+product/blobs/usr/srec/en-US/denorm/embedded_replace_annotated_punct_words_dash.mfar
+product/blobs/usr/srec/en-US/denorm/porn_normalizer_on_device.mfar
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_dictation_frontend_params.mean_stddev
+
+# Accoustic EndToEnd
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_0.tflite
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-encoder.part_1.tflite
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.decoder.tflite
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model-rnnt.joint.tflite
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.syms.compact
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.word_classifier
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_model.wpm.portable
+product/blobs/usr/srec/en-US/endtoendmodel/marble_rnnt_voice_actions_frontend_params.mean_stddev
+
+# Accoustic MagicMic
+product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_meanstddev_vector
+product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_acoustic_model.int8.tflite
+product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_model.int8.tflite
+product/blobs/usr/srec/en-US/magic_mic/MARBLE_V2_vocabulary.syms
+
+# Accoustic VoiceMatch
+product/blobs/usr/srec/en-US/voice_match/MARBLE_speakerid.tflite
+
+# Voice Match Configs
+product/blobs/usr/srec/en-US/config.pumpkin:
+product/blobs/usr/srec/en-US/g2p
+product/blobs/usr/srec/en-US/g2p_phonemes.syms
+product/blobs/usr/srec/en-US/g2p.syms
+product/blobs/usr/srec/en-US/hotword.data
+product/blobs/usr/srec/en-US/metadata
+product/blobs/usr/srec/en-US/monastery_config.pumpkin
+product/blobs/usr/srec/en-US/offline_action_data.pb
+product/blobs/usr/srec/en-US/pumpkin.mmap
+product/blobs/usr/srec/en-US/semantics.pumpkin
+product/blobs/usr/srec/en-US/SODA_punctuation_config.pb
+product/blobs/usr/srec/en-US/SODA_punctuation_model.tflite
+
 # Pixel fonts
 # product/etc/fonts_customization.xml
 # product/fonts/GoogleSans-Italic.ttf
