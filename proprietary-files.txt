@@ -1,4 +1,4 @@
-# All unpinned files are extracted from cheetah-user-13-TQ3A.230705.001
+# All unpinned files are extracted from cheetah TQ3A.230705.001
 
 # GMS mandatory core packages
 # GoogleCalendarSyncAdapter, not exisiting on pixel because it is overridden by CalendarGooglePrebuilt
@@ -41,6 +41,7 @@ product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
 system/priv-app/TagGoogle/TagGoogle.apk;OVERRIDES=Tag;PRESIGNED
 product/app/PrebuiltGmail/PrebuiltGmail.apk;PRESIGNED
 product/app/YouTube/YouTube.apk;PRESIGNED
+product/app/Maps/Maps.apk;PRESIGNED
 
 # GMS comms suite
 # CarrierServices, existing on pixel but not used in favor of CarrierConfig
@@ -72,6 +73,10 @@ product/etc/sysconfig/pixel_experience_2019.xml
 product/etc/sysconfig/pixel_experience_2019_midyear.xml
 product/etc/sysconfig/pixel_experience_2020.xml
 product/etc/sysconfig/pixel_experience_2020_midyear.xml
+product/etc/sysconfig/pixel_experience_2021_midyear.xml
+product/etc/sysconfig/pixel_experience_2021.xml
+product/etc/sysconfig/pixel_experience_2022_midyear.xml
+product/etc/sysconfig/pixel_experience_2022.xml
 system/etc/permissions/privapp-permissions-google.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 
@@ -93,6 +98,23 @@ system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk;OVERRIDES=Stor
 system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
 system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
+
+# GMS extra packages
+product/priv-app/CarrierMetrics/CarrierMetrics.apk;PRESIGNED
+product/priv-app/CarrierLocation/CarrierLocation.apk;PRESIGNED
+product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
+product/priv-app/GCS/GCS.apk;PRESIGNED
+product/priv-app/HealthConnectPrebuilt/HealthConnectPrebuilt.apk;PRESIGNED
+product/priv-app/TetheringEntitlement/TetheringEntitlement.apk;PRESIGNED
+product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
+product/app/PlayAutoInstallConfig/PlayAutoInstallConfig.apk;PRESIGNED
+
+# system_ext extra packages
+system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
+system_ext/priv-app/RilConfigService/RilConfigService.apk;PRESIGNED
+
+# Ambient 
+product/etc/ambient/matcher_tah.leveldb
 
 # Pixel fonts
 # product/etc/fonts_customization.xml

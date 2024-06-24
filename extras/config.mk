@@ -36,6 +36,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     PixelDependencies
 
-# Wallpapers
+# Extra Pixel Packages
 PRODUCT_PACKAGES += \
+    PixelThemesStub2022_and_newer \
+    PixelWallpapers2022 \
+    NgaResources \
     WallpaperEmojiPrebuilt

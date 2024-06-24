@@ -9,6 +9,7 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/app/Chrome/Chrome.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/Chrome/Chrome.apk.gz \
     vendor/gms/common/proprietary/product/app/TrichromeLibrary/TrichromeLibrary.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/TrichromeLibrary/TrichromeLibrary.apk.gz \
     vendor/gms/common/proprietary/product/app/WebViewGoogle/WebViewGoogle.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/WebViewGoogle/WebViewGoogle.apk.gz \
+    vendor/gms/common/proprietary/product/etc/ambient/matcher_tah.leveldb:$(TARGET_COPY_OUT_PRODUCT)/etc/ambient/matcher_tah.leveldb \
     vendor/gms/common/proprietary/product/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
     vendor/gms/common/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/gms/common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
@@ -28,6 +29,10 @@ PRODUCT_COPY_FILES += \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2019_midyear.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2020.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020.xml \
     vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2020_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2020_midyear.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2021.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2021_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2021_midyear.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2022.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022.xml \
+    vendor/gms/common/proprietary/product/etc/sysconfig/pixel_experience_2022_midyear.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_experience_2022_midyear.xml \
     vendor/gms/common/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
     vendor/gms/common/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
 
@@ -44,9 +49,11 @@ PRODUCT_PACKAGES += \
     GoogleTTS \
     LatinIMEGooglePrebuilt \
     LocationHistoryPrebuilt \
+    Maps \
     MarkupGoogle \
     Photos \
     PixelThemesStub \
+    PlayAutoInstallConfig \
     PrebuiltDeskClockGoogle \
     PrebuiltGmail \
     SoundAmplifierPrebuilt \
@@ -56,13 +63,18 @@ PRODUCT_PACKAGES += \
     YouTube \
     talkback \
     AndroidAutoStubPrebuilt \
+    CarrierLocation \
+    CarrierMetrics \
+    CarrierWifi \
     ConfigUpdater \
     DeviceIntelligenceNetworkPrebuilt \
     DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \
+    GCS \
     GoogleDialer \
     GoogleOneTimeInitializer \
     GoogleRestorePrebuilt \
+    HealthConnectPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
     PrebuiltBugle \
@@ -73,14 +85,18 @@ PRODUCT_PACKAGES += \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
+    TetheringEntitlement \
     TurboPrebuilt \
     Velvet \
     WellbeingPrebuilt \
+    WfcActivation \
     EmergencyInfoGoogleNoUi \
     Flipendo \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
+    RilConfigService \
     StorageManagerGoogle \
     WallpaperPickerGoogleRelease \
+    grilservice \
     com.google.android.dialer.support
