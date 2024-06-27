@@ -1,0 +1,5 @@
+common/proprietary/product/app/Photos/Photos.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/app/YouTube/YouTube.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk filter=lfs diff=lfs merge=lfs -text
+common/proprietary/product/priv-app/Velvet/Velvet.apk filter=lfs diff=lfs merge=lfs -text
+extras/proprietary/product/app/GoogleCamera/GoogleCamera.apk filter=lfs diff=lfs merge=lfs -text
