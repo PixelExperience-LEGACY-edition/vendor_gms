@@ -89,7 +89,6 @@ product/app/PixelThemesStub/PixelThemesStub.apk;OVERRIDES=ThemePicker;PRESIGNED
 product/app/SoundAmplifierPrebuilt/SoundAmplifierPrebuilt.apk;PRESIGNED
 product/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk;PRESIGNED
 product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk;PRESIGNED
 product/priv-app/ScribePrebuilt/ScribePrebuilt.apk;PRESIGNED
 product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED

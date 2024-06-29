@@ -116,7 +116,6 @@ PRODUCT_PACKAGES += \
     CarrierWifi \
     ConfigUpdater \
     DeviceIntelligenceNetworkPrebuilt \
-    DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \
     GCS \
     GoogleDialer \
