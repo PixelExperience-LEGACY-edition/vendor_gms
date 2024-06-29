@@ -77,6 +77,9 @@ product/etc/sysconfig/pixel_experience_2021_midyear.xml
 product/etc/sysconfig/pixel_experience_2021.xml
 product/etc/sysconfig/pixel_experience_2022_midyear.xml
 product/etc/sysconfig/pixel_experience_2022.xml
+product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
+product/etc/sysconfig/google-install-constraints-package-allowlist.xml
+product/etc/sysconfig/google-staged-installer-whitelist.xml
 system/etc/permissions/privapp-permissions-google.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 
