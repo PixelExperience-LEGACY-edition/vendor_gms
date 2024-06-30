@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 
 # Extra Pixel Packages
 PRODUCT_PACKAGES += \
+    DevicePersonalizationPrebuiltPixel2020 \
     PixelThemesStub2022_and_newer \
     PixelWallpapers2022 \
     NgaResources \
