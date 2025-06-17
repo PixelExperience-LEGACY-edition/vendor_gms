@@ -53,9 +53,7 @@ product/priv-app/PrebuiltBugle/PrebuiltBugle.apk;OVERRIDES=messaging;PRESIGNED
 # GMS Mandatory application packages
 product/app/Drive/Drive.apk;PRESIGNED
 product/app/Maps/Maps.apk;PRESIGNED
-product/app/Photos/Photos.apk;PRESIGNED
 product/app/PrebuiltGmail/PrebuiltGmail.apk;PRESIGNED
-product/app/YouTube/YouTube.apk;PRESIGNED
 product/app/YouTubeMusicPrebuilt/YouTubeMusicPrebuilt.apk;PRESIGNED
 
 # GMS Optional application packages

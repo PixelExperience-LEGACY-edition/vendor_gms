@@ -122,17 +122,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "Photos",
-	owner: "partner-gms",
-	apk: "proprietary/product/app/Photos/Photos.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
 	name: "PixelThemesStub",
 	owner: "partner-gms",
 	apk: "proprietary/product/app/PixelThemesStub/PixelThemesStub.apk",
@@ -248,17 +237,6 @@ android_app_import {
 	owner: "partner-gms",
 	apk: "proprietary/product/app/WebViewGoogle-Stub/WebViewGoogle-Stub.apk",
 	overrides: ["webview"],
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	product_specific: true,
-}
-
-android_app_import {
-	name: "YouTube",
-	owner: "partner-gms",
-	apk: "proprietary/product/app/YouTube/YouTube.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

@@ -1,0 +1,19 @@
+genrule {
+    name: "merge_Photos",
+    srcs: [
+        "*.apk*",
+    ],
+    out: ["Photos.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+android_app_import {
+	name: "Photos",
+	owner: "gms",
+	apk: ":merge_Photos",
+	overrides: ["Gallery2"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}

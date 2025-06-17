@@ -1,0 +1,18 @@
+genrule {
+    name: "merge_YouTube",
+    srcs: [
+        "*.apk*",
+    ],
+    out: ["YouTube.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+android_app_import {
+	name: "YouTube",
+	owner: "gms",
+	apk: ":merge_YouTube",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	product_specific: true,
+}

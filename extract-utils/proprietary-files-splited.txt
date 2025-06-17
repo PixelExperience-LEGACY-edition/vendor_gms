@@ -1,0 +1,3 @@
+# GMS Mandatory application packages
+product/app/Photos/Photos.apk;OVERRIDES=Gallery2;PRESIGNED
+product/app/YouTube/YouTube.apk;PRESIGNED

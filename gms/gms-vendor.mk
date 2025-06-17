@@ -66,7 +66,6 @@ PRODUCT_PACKAGES += \
     LocationHistoryPrebuilt \
     Maps \
     MarkupGoogle \
-    Photos \
     PixelThemesStub \
     PixelWallpapers2020 \
     PlayAutoInstallConfig \
@@ -78,7 +77,6 @@ PRODUCT_PACKAGES += \
     WallpaperEmojiPrebuilt \
     WallpapersBReel2020 \
     WebViewGoogle-Stub \
-    YouTube \
     YouTubeMusicPrebuilt \
     talkback \
     AndroidAutoStubPrebuilt \
