@@ -135,6 +135,15 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.SHUTDOWN"/>
         <permission name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
         <permission name="android.permission.DISPATCH_PROVISIONING_MESSAGE"/>
+        <permission name="android.permission.ACCESS_WIFI_STATE"/>
+        <permission name="android.permission.CHANGE_WIFI_STATE"/>
+        <permission name="android.permission.ACCESS_FINE_LOCATION"/>
+        <permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+        <permission name="android.permission.NETWORK_SETTINGS"/>
+        <permission name="android.permission.NETWORK_STACK"/>
+        <permission name="android.permission.MANAGE_WIFI_INTERFACES"/>
+        <permission name="android.permission.MANAGE_WIFI_NETWORK_SELECTION"/>
+        <permission name="android.permission.MAINLINE_NETWORK_STACK"/>
     </privapp-permissions>
 
     <privapp-permissions package="com.google.android.grilservice">

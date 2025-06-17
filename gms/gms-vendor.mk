@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/partner-gms/gms/proprietary/product/etc/permissions/com.google.android.odad.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.odad.xml \
     vendor/partner-gms/gms/proprietary/product/etc/permissions/com.google.omadm.trigger.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.omadm.trigger.xml \
     vendor/partner-gms/gms/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
+    vendor/partner-gms/gms/proprietary/product/etc/permissions/privapp-permissions-google-product.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-product.xml \
     vendor/partner-gms/gms/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
     vendor/partner-gms/gms/proprietary/product/etc/preferred-apps/google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/preferred-apps/google.xml \
     vendor/partner-gms/gms/proprietary/product/etc/security/fsverity/gms_fsverity_cert.der:$(TARGET_COPY_OUT_PRODUCT)/etc/security/fsverity/gms_fsverity_cert.der \
@@ -50,10 +51,16 @@ PRODUCT_COPY_FILES += \
     vendor/partner-gms/gms/proprietary/product/usr/share/ime/google/d3_lms/ko_2018030706.zip:$(TARGET_COPY_OUT_PRODUCT)/usr/share/ime/google/d3_lms/ko_2018030706.zip \
     vendor/partner-gms/gms/proprietary/product/usr/share/ime/google/d3_lms/mozc.data:$(TARGET_COPY_OUT_PRODUCT)/usr/share/ime/google/d3_lms/mozc.data \
     vendor/partner-gms/gms/proprietary/product/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip:$(TARGET_COPY_OUT_PRODUCT)/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip \
-    vendor/partner-gms/gms/proprietary/system/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/permissions/privapp-permissions-google.xml \
-    vendor/partner-gms/gms/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml
+    vendor/partner-gms/gms/proprietary/system/etc/permissions/privapp-permissions-google-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google-system.xml \
+    vendor/partner-gms/gms/proprietary/system/etc/permissions/privapp-permissions-google.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-google.xml \
+    vendor/partner-gms/gms/proprietary/system_ext/etc/permissions/privapp-permissions-google-se.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-se.xml \
+    vendor/partner-gms/gms/proprietary/system_ext/etc/permissions/privapp-permissions-google-system-ext.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-google-system-ext.xml
 
 PRODUCT_PACKAGES += \
+    GoogleExtShared \
+    GooglePrintRecommendationService \
+    DocumentsUIGoogle \
+    GooglePackageInstaller \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
     Chrome-Stub \
@@ -83,8 +90,8 @@ PRODUCT_PACKAGES += \
     FilesPrebuilt \
     GoogleDialer \
     GoogleOneTimeInitializer \
+    GooglePartnerSetup \
     GoogleRestorePrebuilt \
-    PartnerSetupPrebuilt \
     Phonesky \
     PixelLiveWallpaperPrebuilt \
     PrebuiltBugle \
@@ -103,7 +110,6 @@ PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
     SecurityHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
-    SetupWizardPrebuilt \
     TipsPrebuilt \
     TurboPrebuilt \
     WallpaperEffect \
@@ -111,6 +117,7 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
+    SetupWizard \
     StorageManagerGoogle \
     WallpaperPickerGoogleRelease \
     com.google.android.dialer.support

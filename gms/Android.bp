@@ -6,6 +6,52 @@ soong_namespace {
 }
 
 android_app_import {
+	name: "GoogleExtShared",
+	owner: "partner-gms",
+	apk: "proprietary/system/app/GoogleExtShared/GoogleExtShared.apk",
+	overrides: ["ExtServices"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "GooglePrintRecommendationService",
+	owner: "partner-gms",
+	apk: "proprietary/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk",
+	overrides: ["PrintRecommendationService"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "DocumentsUIGoogle",
+	owner: "partner-gms",
+	apk: "proprietary/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk",
+	overrides: ["DocumentsUI"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "GooglePackageInstaller",
+	owner: "partner-gms",
+	apk: "proprietary/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk",
+	overrides: ["PackageInstaller"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "CalculatorGooglePrebuilt",
 	owner: "partner-gms",
 	apk: "proprietary/product/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk",
@@ -294,7 +340,7 @@ android_app_import {
 	name: "DevicePersonalizationPrebuiltPixel2020",
 	owner: "partner-gms",
 	apk: "proprietary/product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk",
-	certificate: "platform",
+	presigned: true,
 	dex_preopt: {
 		enabled: false,
 	},
@@ -341,9 +387,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "GoogleRestorePrebuilt",
+	name: "GooglePartnerSetup",
 	owner: "partner-gms",
-	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk",
+	apk: "proprietary/product/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -353,9 +399,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PartnerSetupPrebuilt",
+	name: "GoogleRestorePrebuilt",
 	owner: "partner-gms",
-	apk: "proprietary/product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk",
+	apk: "proprietary/product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,
@@ -583,18 +629,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "SetupWizardPrebuilt",
-	owner: "partner-gms",
-	apk: "proprietary/product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "TipsPrebuilt",
 	owner: "partner-gms",
 	apk: "proprietary/product/priv-app/TipsPrebuilt/TipsPrebuilt.apk",
@@ -672,6 +706,19 @@ android_app_import {
 	owner: "partner-gms",
 	apk: "proprietary/system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk",
 	overrides: ["LineageSetupWizard"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	system_ext_specific: true,
+}
+
+android_app_import {
+	name: "SetupWizard",
+	owner: "partner-gms",
+	apk: "proprietary/system_ext/priv-app/SetupWizard/SetupWizard.apk",
+	overrides: ["Provision"],
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

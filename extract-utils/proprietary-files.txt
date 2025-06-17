@@ -15,10 +15,9 @@ product/etc/security/fsverity/gms_fsverity_cert.der
 product/etc/security/fsverity/play_store_fsi_cert.der
 product/priv-app/AndroidAutoStubPrebuilt/AndroidAutoStubPrebuilt.apk;PRESIGNED
 product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk
+product/priv-app/DevicePersonalizationPrebuiltPixel2020/DevicePersonalizationPrebuiltPixel2020.apk;PRESIGNED
 product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES=OneTimeInitializer;PRESIGNED
 product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
-product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
 product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_AdsDynamite.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_CronetDynamite.apk;PRESIGNED
@@ -31,14 +30,13 @@ product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_MeasurementDyna
 product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk;PRESIGNED
-product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;PRESIGNED
 product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk;PRESIGNED
 product/usr/share/ime/google/d3_lms/ko_2018030706.zip
 product/usr/share/ime/google/d3_lms/mozc.data
 product/usr/share/ime/google/d3_lms/zh_CN_2018030706.zip
-system/system/app/GoogleExtShared/GoogleExtShared.apk;PRESIGNED
-system/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk;OVERRIDES=PrintRecommendationService;PRESIGNED
-system/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;OVERRIDES=PackageInstaller;PRESIGNED
+system/system/app/GoogleExtShared/GoogleExtShared.apk:system/app/GoogleExtShared/GoogleExtShared.apk;OVERRIDES=ExtServices;PRESIGNED
+system/system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk:system/app/GooglePrintRecommendationService/GooglePrintRecommendationService.apk;OVERRIDES=PrintRecommendationService;PRESIGNED
+system/system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk:system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk;OVERRIDES=PackageInstaller;PRESIGNED
 system_ext/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk;PRESIGNED
 
 # GMS Telephony application packages
@@ -77,10 +75,9 @@ product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 product/priv-app/TipsPrebuilt/TipsPrebuilt.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
-system/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;OVERRIDES=DocumentsUI;PRESIGNED
+system/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk:system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;OVERRIDES=DocumentsUI;PRESIGNED
 system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
 system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk;OVERRIDES=StorageManager;PRESIGNED
-system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
 
 # Configs-01
@@ -114,7 +111,7 @@ product/etc/sysconfig/pixel_experience_2020.xml
 product/etc/sysconfig/pixel_experience_2020_midyear.xml
 product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/etc/sysconfig/quick_tap.xml
-system/system/etc/permissions/privapp-permissions-google.xml
+system/system/etc/permissions/privapp-permissions-google.xml:system/etc/permissions/privapp-permissions-google.xml
 system_ext/etc/permissions/privapp-permissions-google-se.xml
 
 # Configs-02
@@ -123,3 +120,11 @@ product/etc/sysconfig/pixel_experience_2021.xml
 product/etc/sysconfig/pixel_experience_2021_midyear.xml
 product/etc/sysconfig/pixel_experience_2022.xml
 product/etc/sysconfig/pixel_experience_2022_midyear.xml
+product/etc/permissions/privapp-permissions-google-product.xml
+system/system/etc/permissions/privapp-permissions-google-system.xml:system/etc/permissions/privapp-permissions-google-system.xml
+system_ext/etc/permissions/privapp-permissions-google-system-ext.xml
+
+# SetupWizards
+system_ext/priv-app/SetupWizard/SetupWizard.apk;OVERRIDES=Provision;PRESIGNED
+system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
+product/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk;PRESIGNED
