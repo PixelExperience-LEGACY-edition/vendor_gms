@@ -30,8 +30,8 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" true
 # Warning headers and guards
 write_headers "arm64"
 sed -i 's|TARGET_DEVICE|TARGET_ARCH|g' "${ANDROIDMK}"
-sed -i 's|vendor/gms/|vendor/gms/common|g' "${PRODUCTMK}"
-sed -i 's|device/gms//setup-makefiles.sh|vendor/gms/setup-makefiles.sh|g' "${ANDROIDBP}" "${ANDROIDMK}" "${BOARDMK}" "${PRODUCTMK}"
+sed -i 's|vendor/partner-gms/|vendor/partner-gms/gms|g' "${PRODUCTMK}"
+sed -i 's|device/partner-gms//setup-makefiles.sh|vendor/partner-gms/extract-utils/setup-makefiles.sh|g' "${ANDROIDBP}" "${ANDROIDMK}" "${BOARDMK}" "${PRODUCTMK}"
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
