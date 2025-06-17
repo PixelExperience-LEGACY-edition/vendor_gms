@@ -402,18 +402,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "PrebuiltGmsCoreSc",
-	owner: "partner-gms",
-	apk: "proprietary/product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
 	name: "PrebuiltGmsCoreSc_AdsDynamite",
 	owner: "partner-gms",
 	apk: "proprietary/product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_AdsDynamite.apk",
@@ -610,18 +598,6 @@ android_app_import {
 	name: "TipsPrebuilt",
 	owner: "partner-gms",
 	apk: "proprietary/product/priv-app/TipsPrebuilt/TipsPrebuilt.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "Velvet",
-	owner: "partner-gms",
-	apk: "proprietary/product/priv-app/Velvet/Velvet.apk",
 	presigned: true,
 	dex_preopt: {
 		enabled: false,

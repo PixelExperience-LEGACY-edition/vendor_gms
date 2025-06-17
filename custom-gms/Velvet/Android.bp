@@ -1,0 +1,20 @@
+genrule {
+    name: "merge_Velvet",
+    srcs: [
+        "*.apk*",
+    ],
+    out: ["Velvet.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+android_app_import {
+	name: "Velvet",
+	owner: "gms",
+	apk: ":merge_Velvet",
+	overrides: ["QuickSearchBox"],
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}

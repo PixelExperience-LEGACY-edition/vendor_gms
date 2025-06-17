@@ -1,0 +1,19 @@
+genrule {
+    name: "merge_PrebuiltGmsCoreSc",
+    srcs: [
+        "*.apk*",
+    ],
+    out: ["PrebuiltGmsCoreSc.apk"],
+    cmd: "cat $(in) > $(out)",
+}
+android_app_import {
+	name: "PrebuiltGmsCoreSc",
+	owner: "gms",
+	apk: ":merge_PrebuiltGmsCoreSc",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}

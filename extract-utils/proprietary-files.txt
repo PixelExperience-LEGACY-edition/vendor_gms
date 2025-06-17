@@ -20,7 +20,6 @@ product/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk;OVERRIDES
 product/priv-app/GoogleRestorePrebuilt/GoogleRestorePrebuilt.apk;PRESIGNED
 product/priv-app/PartnerSetupPrebuilt/PartnerSetupPrebuilt.apk;PRESIGNED
 product/priv-app/Phonesky/Phonesky.apk;PRESIGNED
-product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_AdsDynamite.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_CronetDynamite.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/app_chimera/m/PrebuiltGmsCoreSc_DynamiteLoader.apk;PRESIGNED
@@ -33,7 +32,6 @@ product/priv-app/PrebuiltGmsCore/m/independent/AndroidPlatformServices.apk;PRESI
 product/priv-app/PrebuiltGmsCore/m/optional/MlkitBarcodeUIPrebuilt.apk;PRESIGNED
 product/priv-app/PrebuiltGmsCore/m/optional/VisionBarcodePrebuilt.apk;PRESIGNED
 product/priv-app/SetupWizardPrebuilt/SetupWizardPrebuilt.apk;PRESIGNED
-product/priv-app/Velvet/Velvet.apk;PRESIGNED
 product/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk;PRESIGNED
 product/usr/share/ime/google/d3_lms/ko_2018030706.zip
 product/usr/share/ime/google/d3_lms/mozc.data

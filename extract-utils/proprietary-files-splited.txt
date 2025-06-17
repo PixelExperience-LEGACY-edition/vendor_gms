@@ -1,3 +1,7 @@
 # GMS Mandatory application packages
 product/app/Photos/Photos.apk;OVERRIDES=Gallery2;PRESIGNED
 product/app/YouTube/YouTube.apk;PRESIGNED
+
+# GMS core
+product/priv-app/PrebuiltGmsCore/PrebuiltGmsCoreSc.apk;PRESIGNED
+product/priv-app/Velvet/Velvet.apk;OVERRIDES=QuickSearchBox;PRESIGNED

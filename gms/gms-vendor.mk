@@ -90,7 +90,6 @@ PRODUCT_PACKAGES += \
     Phonesky \
     PixelLiveWallpaperPrebuilt \
     PrebuiltBugle \
-    PrebuiltGmsCoreSc \
     PrebuiltGmsCoreSc_AdsDynamite \
     PrebuiltGmsCoreSc_CronetDynamite \
     PrebuiltGmsCoreSc_DynamiteLoader \
@@ -108,7 +107,6 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     TipsPrebuilt \
-    Velvet \
     WallpaperEffect \
     WellbeingPrebuilt \
     GoogleServicesFramework \
