@@ -59,6 +59,7 @@ product/app/CalculatorGooglePrebuilt/CalculatorGooglePrebuilt.apk;OVERRIDES=Calc
 product/app/CalendarGooglePrebuilt/CalendarGooglePrebuilt.apk;OVERRIDES=Calendar,GoogleCalendarSyncAdapter,Etar;PRESIGNED
 product/app/PrebuiltDeskClockGoogle/PrebuiltDeskClockGoogle.apk;OVERRIDES=AlarmClock,DeskClock;PRESIGNED
 product/priv-app/FilesPrebuilt/FilesPrebuilt.apk;PRESIGNED
+product/priv-app/TurboPrebuilt/TurboPrebuilt.apk;PRESIGNED
 product/app/SoundAmplifierPrebuilt/SoundAmplifierPrebuilt.apk;PRESIGNED
 
 # GMS Pixel specific application packages
@@ -76,7 +77,9 @@ product/priv-app/SecurityHubPrebuilt/SecurityHubPrebuilt.apk;PRESIGNED
 product/priv-app/SettingsIntelligenceGooglePrebuilt/SettingsIntelligenceGooglePrebuilt.apk;OVERRIDES=SettingsIntelligence;PRESIGNED
 product/priv-app/TipsPrebuilt/TipsPrebuilt.apk;PRESIGNED
 product/priv-app/WallpaperEffect/WallpaperEffect.apk;PRESIGNED
+system/system/priv-app/DocumentsUIGoogle/DocumentsUIGoogle.apk;OVERRIDES=DocumentsUI;PRESIGNED
 system_ext/priv-app/NexusLauncherRelease/NexusLauncherRelease.apk;OVERRIDES=Launcher3QuickStep,TrebuchetQuickStep;PRESIGNED
+system_ext/priv-app/StorageManagerGoogle/StorageManagerGoogle.apk;OVERRIDES=StorageManager;PRESIGNED
 system_ext/priv-app/PixelSetupWizard/PixelSetupWizard.apk;OVERRIDES=LineageSetupWizard;PRESIGNED
 system_ext/priv-app/WallpaperPickerGoogleRelease/WallpaperPickerGoogleRelease.apk;OVERRIDES=WallpaperPicker,WallpaperPicker2,WallpaperCropper;PRESIGNED
 

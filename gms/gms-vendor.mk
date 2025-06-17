@@ -107,10 +107,12 @@ PRODUCT_PACKAGES += \
     SettingsIntelligenceGooglePrebuilt \
     SetupWizardPrebuilt \
     TipsPrebuilt \
+    TurboPrebuilt \
     WallpaperEffect \
     WellbeingPrebuilt \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
+    StorageManagerGoogle \
     WallpaperPickerGoogleRelease \
     com.google.android.dialer.support
